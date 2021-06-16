@@ -1,0 +1,20 @@
+.fcontainer{
+    color: red;
+    display: flex ;
+    border: 1px ridge black;
+    flex-wrap: wrap;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+
+}
+.fitem{
+    background: rebeccapurple;
+    margin: 1%;
+    width: 20%;
+    height: 5%;
+    border: 2px solid black;
+
+
+}

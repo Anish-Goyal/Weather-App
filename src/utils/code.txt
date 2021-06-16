@@ -1,0 +1,43 @@
+use of asyncronous
+console.log("starting")
+setTimeout(()=>{
+    console.log("2 sec timeout")
+},2000)
+setTimeout(()=>
+{
+    console.log("0 Timmer")
+})
+console.log("stopping")
+
+using json parse w/0 json npm package
+const data = JSON.parse(responce.body)
+
+geocode method
+// const geocodeurl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/alwar.json?access_token=pk.eyJ1IjoiYW5pc2hnIiwiYSI6ImNrcGQ4azNibzA2aDcyd252ZjV2amx6Y2wifQ.uHQ5ngD631ZYllDnib1gpw&limit=1'
+// request({url: geacodeurl,json:true},(error,responce)=>{
+//     if(error)
+//     console.log("Mapp app cant be loaded!")
+// else if(responce.body.features==null)
+// console.log("Unalble to find searched place!")
+//     else
+//     console.log("Longitude and Lattitude of "+responce.body.features[0].text+" are "+responce.body.features[0].center[0]+","+responce.body.features[0].center[1])
+// })
+
+general callback method
+const fo1 = (a,b,callback)=>{
+   const url = ''
+   request({url:url,json:true},(error,response)=>{
+      if(error){
+          callback(er,da)
+
+      }else if(){
+
+      }else
+
+   })
+}
+calling method: 
+forecast(-78, 44.1545, (error, data) => {
+   console.log('Error', error)
+   console.log('Data', data)
+ })

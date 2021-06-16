@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{title}}</title>
+    <script src="/js/help.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+  <div class="flexbox">
+	  <header>
+	{{>header}}
+	{{!-- <h1>{{name}}</h1> --}}
+	<nav>
+		<a href="#one" title="I am the one">One</a>
+		<a href="#two">Two</a>
+		<a href="#three">Three</a>
+		<a href="https://www.wikipedia.org/" target="_blank">Search on Wikipedia</a>
+	</nav>
+</header>
+
+<section class="half">
+<h2>Favourite Foods</h2>
+<ul>
+	<li id="one">Cottage Cheese<ul class="hide"><li>yummy</li><li>extra</li></ul></li>
+	<li class="pizza">Pizza<ul class="hide"><li>margrehita</li><li>farmhouse</li></ul>
+	</li>
+	<li>Sweets/Candies</li>
+	<li>Indian cuisine</li>
+</ul>
+</section>
+<section class="half">
+<h2>Achivements</h2>
+Progress in the course (100%)<progress value="100" max="100"></progress><br>
+Progress in the Specialization capstone (20%)<progress value="20" max="100"></progress><br>Progress in Life goals (40%)<progress value="40" max="100"> value="40" min="0" max="100"></progress>
+</section>
+
+  </div>
+
+<div class="footer">
+	<footer>
+		<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4E ">This page was created by Anish Goyal & Colleen van Lent. To learn more about web design visit <a href="http://www.intro-webdesign.com">Intro to Web Design</a>
+	</footer></div>
+</body>
+</html>
