@@ -22,7 +22,7 @@ weatherForm.addEventListener('submit', (e)=>{
         return msg1.textContent= data.error;    }
         msg1.textContent = data.Fdata.date+data.Fdata.month+" "+data.Fdata.formattedTime;
         msg2.textContent= data.location;
-        msg3.innerHTML= "<p>Current Temperature:"+data.Fdata.temp+"Degrees  Humidity: "+data.Fdata.humidity+"%<br>Weather: "+data.Fdata.wdiscription+" Wind speed:"+data.Fdata.windsp+"m/s</p>";
+        msg3.innerHTML= "<p>Current Temperature:"+data.Fdata.temp+"Degrees &nbsp Humidity: "+data.Fdata.humidity+"%<br>Weather: "+data.Fdata.wdiscription+" &nbsp&nbsp Wind-speed:"+data.Fdata.windsp+"m/s</p>";
     }) 
     })
     
