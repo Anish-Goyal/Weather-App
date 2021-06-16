@@ -20,7 +20,7 @@ weatherForm.addEventListener('submit', (e)=>{
         if(data.error){
             console.log(data.error)
         return msg1.textContent= data.error;    }
-        msg1.textContent = data.Fdata.date+data.Fdata.month+" "+data.Fdata.formattedTime;
+        msg1.textContent = data.Fdata.date+data.Fdata.month+" "+data.Fdata.day;
         msg2.textContent= data.location;
         msg3.innerHTML= "<p>Current Temperature:"+data.Fdata.temp+"Degrees &nbsp Humidity: "+data.Fdata.humidity+"%<br>Weather: "+data.Fdata.wdiscription+" &nbsp&nbsp Wind-speed:"+data.Fdata.windsp+"m/s</p>";
     }) 

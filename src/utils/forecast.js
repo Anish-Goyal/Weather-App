@@ -13,9 +13,10 @@ const {body} =response
 const {message,weather,main,wind} =body;
 
 let unix_timestamp = body.dt;
-var date = new Date(unix_timestamp * 1000);
+var date = new Date(unix_timestamp*1000);
+var days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  //var year = a.getFullYear();
+  var day = days[date.getDay()];
   var month = months[date.getMonth()];
 var hours = date.getHours();
 var minutes = "0" + date.getMinutes();
@@ -33,6 +34,7 @@ var formattedTime = hours + ':' + minutes.substr(-2);
       humidity: main.humidity,
       windsp: wind.speed,
       date,
+      day,
       month,
       formattedTime
     })
