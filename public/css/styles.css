@@ -72,15 +72,24 @@ h1{
 	font-weight: bold;
 	margin-top: 0;
 }
+#msg3{
+	color: aliceblue;
+	font-weight: bold;
+	margin-top: 0;
+}
 #msg1:hover{
-	
-	color:aliceblue;
+	font-size: larger;
 	opacity: 0.7;
 	list-style-type: none;
 }
 #msg2:hover{
 	
-	color:aliceblue;
+	font-size: larger;
+	opacity: 0.7;
+	list-style-type: none;
+}
+#msg3:hover{
+	font-size: larger;
 	opacity: 0.7;
 	list-style-type: none;
 }
