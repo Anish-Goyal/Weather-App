@@ -1,15 +1,14 @@
 
 body {
-	background-image: url('/images/wb4.jpg');
+	background-color: #7a9cab;
+	background-image: url('/images/wb6.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-color: #7a9cab;
 	font-size: 125%;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0 auto;
-	
-	
+	height: 100vh;
 }
 
 h1{
@@ -22,7 +21,7 @@ h1{
 	margin: 1% 0 0 0;
 	height: 10%;
 	padding: 0 2%; 
-	color: #b7ccfb;
+font-weight: bold;
 	width: -webkit-fill-available;
 
 }
@@ -182,6 +181,7 @@ h2{
 	
 	color: black;
 	border-radius: 5px;
+	margin-left: 1%;
 	
 }
   
@@ -207,17 +207,6 @@ summary{
 	font-size: 130%;
 }
 
-
-.half{
-	display: inline-block;
-	width:45%;
-	margin: 0 2% 4% 0;
-	
-}
-.full{
-	clear: both;
-	margin-top: 50px;
-}
 ul{
 	list-style-type: lower-greek;
 }
