@@ -20,6 +20,7 @@ h1{
     border-top: 1px solid white;
 	margin: 1% 0 0 0;
 	height: 10%;
+	color: whitesmoke;
 	padding: 0 2%; 
 font-weight: bold;
 	width: -webkit-fill-available;
@@ -77,19 +78,18 @@ font-weight: bold;
 	margin-top: 0;
 }
 #msg1:hover{
-	font-size: larger;
-	opacity: 0.7;
+	
+	opacity: 0.8;
 	list-style-type: none;
 }
 #msg2:hover{
 	
-	font-size: larger;
-	opacity: 0.7;
+	opacity: 0.8;
 	list-style-type: none;
 }
 #msg3:hover{
-	font-size: larger;
-	opacity: 0.7;
+	
+	opacity: 0.8;
 	list-style-type: none;
 }
 
@@ -150,12 +150,15 @@ opacity:0.6;
 
 
 ul {
-  margin: 8px 0 0 0;
+  margin: 10px 0 0 0;
   padding: 0;
+  
 }
 li {
 	 border: 1px solid #ffffff;
 	padding: 10px;
+	
+	font-weight: bolder;
   border-bottom: 1px solid #cecfd5;
 }
 
@@ -174,13 +177,18 @@ a:hover {
 	color: #cecfd5;
 }
 
-
-	
-
 h2{
+	margin-left: 1%;
+}
+.location{
+	margin: 0;
+	font-size: x-large;
+}
 	
-	color: black;
-	border-radius: 5px;
+
+h3{
+	color: whitesmoke;
+	font-weight: bold;
 	margin-left: 1%;
 	
 }
@@ -188,7 +196,7 @@ h2{
   li:hover {
 	display:block;
 	color:aliceblue;
-	opacity: 2;
+	
 	list-style-type: none;
 }
 .hide li:hover{
